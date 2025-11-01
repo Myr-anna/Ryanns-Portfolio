@@ -5,8 +5,8 @@ This repository contains my **university and personal projects** developed durin
 
 My portfolio showcases:
 - Hands-on work in **simulation and modeling**, **machine learning**, and **robotics**
-- Selected **Google Colab projects** (Monte Carlo simulations, discrete-event modeling, regression analysis)
-- A **C-based systems project**: the Jewelry Store Order Manager  
+- **Google Colab projects** (Monte Carlo simulations, discrete-event modeling, regression analysis)
+- **C-based systems project**: the Jewelry Store Order Manager  
 - My **skills**, **resume**, and **personal website**
 
 🌐 **Live Website:** [https://myr-anna.github.io/Ryanns-Portfolio/](https://myr-anna.github.io/Ryanns-Portfolio/)  
@@ -15,4 +15,4 @@ My portfolio showcases:
 
 ---
 
-_Explore the site to see detailed project descriptions, reports, and interactive notebooks!_
+_Explore the site to see detailed project descriptions, reports, and more!_
