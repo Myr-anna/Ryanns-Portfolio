@@ -1,64 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Ryann Mack Portfolio</title>
-  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Ryann Mack — Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <meta name="description" content="Ryann Mack — CS & AI student at IE University. Simulation & Modeling, ML foundations, Robotics. Open to Summer 2026 SWE/AI internships." />
 </head>
 <body>
-<header>
-  <h1>Ryann Mack</h1>
-  <p>Bachelor in Computer Science & Artificial Intelligence, IE University (Class of 2028)</p>
-  <p>Passionate about robotics and AI, simulation and modeling, and software development. Open to internships for Summer 2026.</p>
-  <nav>
-    <!-- Update the href values with your actual email and GitHub username -->
-    <a href="mailto:you@example.com">Email</a>
-    <a href="https://github.com/yourusername" target="_blank">GitHub</a>
-    <a href="https://www.linkedin.com/in/ryann-mack/" target="_blank">LinkedIn</a>
-  </nav>
-</header>
+  <header>
+    <h1>Ryann Mack</h1>
+    <p>CS & AI @ IE University (’28) · U.S. Citizen · Open to <b>Summer 2026</b> SWE/AI/Robotics internships</p>
+    <nav>
+      <a href="https://github.com/Myr-anna" target="_blank" rel="noreferrer">GitHub</a>
+      <a href="https://www.linkedin.com/in/ryann-mack/" target="_blank" rel="noreferrer">LinkedIn</a>
+      <a href="mailto:your.email@example.com">Email</a>
+    </nav>
+  </header>
 
-<section>
-  <h2>About Me</h2>
-  <p>I am a sophomore at IE University pursuing a Bachelor in Computer Science and Artificial Intelligence, graduating in 2028. My academic work and projects focus on areas such as simulation and modeling, and machine‑learning foundations. I am gaining hands‑on experience through coursework, personal projects, and research in the Robotics & AI Lab, where I work with Python, Arduino, and robotic simulation tools.</p>
-  <p>Alongside my technical skills in C, Python, Java, and cloud‑based tools, I bring strong problem‑solving and collaboration skills developed through both academic and professional experiences. I am eager to apply my knowledge to real‑world challenges and contribute my software skills as a robotics intern, research assistant, or more in Summer 2026!</p>
-</section>
+  <main class="container">
+    <section>
+      <h2>About Me</h2>
+      <p>
+        I’m a sophomore at IE University pursuing a Bachelor in Computer Science and Artificial Intelligence (Class of 2028).
+        I love turning theory into working systems—Monte Carlo estimators, discrete-event simulations with SimPy, and practical C programs with structured file I/O.
+        I currently work in the Robotics & AI Lab with Python, Arduino, and robotic simulation tools.
+      </p>
+    </section>
 
-<section>
-  <h2>Projects</h2>
+    <section>
+      <h2>Featured Projects</h2>
 
-  <div class="project">
-    <h3>Monte Carlo Integration</h3>
-    <p>Applied Monte Carlo methods to approximate integrals through random sampling, including estimating π and solving inference problems using random sampling. The technique samples points randomly in a domain and uses the sample mean to approximate the integral, which is particularly useful for high‑dimensional integrals【680102909667571†L148-L154】.</p>
-    <p><strong>Tools:</strong> Python, NumPy, Matplotlib</p>
-    <p><a href="https://colab.research.google.com/drive/1BknrFdSU8JARpfX4GdbyQvV7BiAXAJ6t?usp=sharing" target="_blank">Open Notebook</a></p>
-  </div>
+      <article class="card">
+        <h3>Monte Carlo Integration</h3>
+        <p>Used random sampling to approximate integrals and estimate π. Explored convergence and sampling error.</p>
+        <p><b>Stack:</b> Python, NumPy, Matplotlib</p>
+        <a class="btn" href="https://colab.research.google.com/drive/1BknrFdSU8JARpfX4GdbyQvV7BiAXAJ6t?usp=sharing" target="_blank" rel="noreferrer">Open Colab</a>
+      </article>
 
-  <div class="project">
-    <h3>Discrete‑Event Simulation – Hospital Queue</h3>
-    <p>Built a discrete‑event simulation using SimPy to model a hospital queue system. SimPy is a Python‑based discrete‑event simulation system that models active components such as messages, customers and other entities by parallel processes and provides resource facilities and ways to record results【608229278128739†L133-L139】. The model analyzed waiting times and system efficiency for patients.</p>
-    <p><strong>Tools:</strong> Python, SimPy</p>
-    <p><a href="https://colab.research.google.com/drive/1-gCF-1Wg4XfP0kz-_LOSM-aRRahbADXM?usp=sharing" target="_blank">Open Notebook</a></p>
-  </div>
+      <article class="card">
+        <h3>Hospital Queue (SimPy) — Discrete Event Simulation</h3>
+        <p>Modeled patient arrivals, resources, and service times; analyzed waits, queue lengths, and utilization.</p>
+        <p><b>Stack:</b> Python, SimPy</p>
+        <a class="btn" href="https://colab.research.google.com/drive/1-gCF-1Wg4XfP0kz-_LOSM-aRRahbADXM?usp=sharing" target="_blank" rel="noreferrer">Open Colab</a>
+      </article>
 
-  <div class="project">
-    <h3>Logistic Regression – Titanic Survival</h3>
-    <p>Developed a logistic regression model to classify Titanic passengers as survivors or non‑survivors. The project involved cleaning the dataset, engineering features (e.g., extracting titles from names), optimizing the classification threshold using ROC analysis, and evaluating accuracy (≈82%). Logistic regression is a supervised machine‑learning algorithm widely used for binary classification tasks【120886233947787†L377-L392】.</p>
-    <p><strong>Tools:</strong> Python, Pandas, scikit‑learn</p>
-    <p><a href="./Logistic_Regression_Lab.pdf" target="_blank">View Report</a></p>
-  </div>
+      <article class="card">
+        <h3>Logistic Regression — Titanic Survival</h3>
+        <p>Binary classification with feature engineering and ROC-based threshold; ≈82% accuracy.</p>
+        <p><b>Artifact:</b> PDF report</p>
+        <a class="btn" href="./Logistic_Regression_Lab.pdf">View PDF</a>
+      </article>
 
-  <div class="project">
-    <h3>Jewelry Store Order Manager (C Project)</h3>
-    <p>A console‑based application developed in C for managing customer orders at a jewelry store. Features include viewing orders, searching by customer or email, adding new orders, deleting existing ones, filtering by status, and editing order status. Orders are stored in a CSV file and loaded on startup.</p>
-    <p><strong>Tools:</strong> C, Standard Library</p>
-    <!-- Update the link below once the C project code is hosted on GitHub -->
-    <p><a href="https://github.com/yourusername/jewelry-order-manager" target="_blank">View Source Code</a></p>
-  </div>
-</section>
+      <article class="card">
+        <h3>Jewelry Store Order Manager (C)</h3>
+        <p>CSV-backed CLI to add, search, delete, filter, and edit orders using structs and file I/O.</p>
+        <p><b>Stack:</b> C, stdio, VS Code</p>
+        <!-- If the C project is in another repo, keep this link. If you place the code in this repo under /c-jewelry-manager, change the href to ./c-jewelry-manager/ -->
+        <a class="btn" href="https://github.com/Myr-anna/Jewelry-Store-Manager" target="_blank" rel="noreferrer">View Source</a>
+      </article>
 
-<footer>
-  <p>© 2025 Ryann Mack. Last updated 1 Nov 2025.</p>
-</footer>
-</body>
-</html>
+    </section>
+
+    <section>
+      <h2>Skills</h2>
+      <p><b>Languages:</b> C · Python · Java · SQL</p>
+      <p><b>Libraries & Tools:</b> SimPy · NumPy · Matplotlib · Pandas · Arduino · Gi
