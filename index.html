@@ -14,7 +14,7 @@
     <nav>
       <a href="https://github.com/Myr-anna" target="_blank" rel="noreferrer">GitHub</a>
       <a href="https://www.linkedin.com/in/ryann-mack/" target="_blank" rel="noreferrer">LinkedIn</a>
-      <a href="mailto:ryann.mack05@gmail.com">Email</a>
+      <a href="mailto:your.email@example.com">Email</a>
     </nav>
   </header>
 
@@ -23,9 +23,7 @@
       <h2>About Me</h2>
       <p>
         I’m a sophomore at IE University pursuing a Bachelor in Computer Science and Artificial Intelligence (Class of 2028).
-        
-        I love turning theory into working systems—Monte Carlo estimators, discrete-event simulations with SimPy, and practical C programs with structured file I/O.
-        
+        I like turning theory into working systems—Monte Carlo estimators, discrete-event simulations with SimPy, and practical C programs with structured file I/O.
         I currently work in the Robotics & AI Lab with Python, Arduino, and robotic simulation tools.
       </p>
     </section>
@@ -33,32 +31,41 @@
     <section>
       <h2>Featured Projects</h2>
 
-      <article class="card">
-        <h3>Monte Carlo Integration</h3>
-        <p>Used random sampling to approximate integrals and estimate π. Explored convergence and sampling error.</p>
-        <p><b>Stack:</b> Python, NumPy, Matplotlib</p>
-        <a class="btn" href="https://colab.research.google.com/drive/1BknrFdSU8JARpfX4GdbyQvV7BiAXAJ6t?usp=sharing" target="_blank" rel="noreferrer">Open Colab</a>
-      </article>
-
+      <!-- 1) Discrete-Event Simulation — Hospital Queue (Colab notebook link you provided) -->
       <article class="card">
         <h3>Hospital Queue (SimPy) — Discrete Event Simulation</h3>
         <p>Modeled patient arrivals, resources, and service times; analyzed waits, queue lengths, and utilization.</p>
         <p><b>Stack:</b> Python, SimPy</p>
-        <a class="btn" href="https://colab.research.google.com/drive/1-gCF-1Wg4XfP0kz-_LOSM-aRRahbADXM?usp=sharing" target="_blank" rel="noreferrer">Open Colab</a>
+        <a class="btn" href="https://colab.research.google.com/drive/1-gCF-1Wg4XfP0kz-_LOSM-aRRahbADXM?usp=sharing" target="_blank" rel="noreferrer">Open in Colab</a>
       </article>
 
+      <!-- 2) Monte Carlo Integration — use the same id as your Drive file to open in Colab viewer -->
+      <article class="card">
+        <h3>Monte Carlo Integration</h3>
+        <p>Used random sampling to approximate integrals and estimate π. Explored convergence and sampling error.</p>
+        <p><b>Stack:</b> Python, NumPy, Matplotlib</p>
+        <!-- Your Drive link (file view) converts to a Colab viewer link by using /drive/<id> -->
+        <a class="btn" href="https://colab.research.google.com/drive/1BknrFdSU8JARpfX4GdbyQvV7BiAXAJ6t?usp=sharing" target="_blank" rel="noreferrer">Open in Colab</a>
+      </article>
+
+      <!-- 3) Logistic Regression — Titanic (Colab notebook link you provided + a “fixed CSV” note) -->
       <article class="card">
         <h3>Logistic Regression — Titanic Survival</h3>
         <p>Binary classification with feature engineering and ROC-based threshold; ≈82% accuracy.</p>
-        <p><b>Artifact:</b> PDF report</p>
-        <a class="btn" href="./Logistic_Regression_Lab.pdf">View PDF</a>
+        <p><b>Artifact:</b> Colab notebook; CSV now loads from this repo for public viewing.</p>
+        <!-- Your Drive file link (view) is preserved; Colab will open it if it's a notebook. If it’s not a notebook, keep as Drive view. -->
+        <a class="btn" href="https://drive.google.com/file/d/1Mcjm-s0ciRDS9TIKz0hB18To9op9XfHB/view?usp=sharing" target="_blank" rel="noreferrer">Open (Drive)</a>
+        <!-- Optional: if it is a notebook, you can also add a Colab direct viewer if you know it’s a .ipynb -->
+        <a class="btn" href="https://colab.research.google.com/drive/1Mcjm-s0ciRDS9TIKz0hB18To9op9XfHB?usp=sharing" target="_blank" rel="noreferrer">Open in Colab</a>
       </article>
 
+      <!-- 4) Jewelry Store Order Manager (C) -->
       <article class="card">
         <h3>Jewelry Store Order Manager (C)</h3>
         <p>CSV-backed CLI to add, search, delete, filter, and edit orders using structs and file I/O.</p>
         <p><b>Stack:</b> C, stdio, VS Code</p>
-        <!-- If the C project is in another repo, keep this link. If you place the code in this repo under /c-jewelry-manager, change the href to ./c-jewelry-manager/ -->
+        <!-- If you have (or will create) a dedicated repo for this project, point here.
+             Otherwise, put the source into a subfolder and link that. -->
         <a class="btn" href="https://github.com/Myr-anna/Jewelry-Store-Manager" target="_blank" rel="noreferrer">View Source</a>
       </article>
 
@@ -67,4 +74,17 @@
     <section>
       <h2>Skills</h2>
       <p><b>Languages:</b> C · Python · Java · SQL</p>
-      <p><b>Libraries & Tools:</b> SimPy · NumPy · Matplotlib · Pandas · Arduino · Gi
+      <p><b>Libraries & Tools:</b> SimPy · NumPy · Matplotlib · Pandas · Arduino · Git · VS Code · Google Colab</p>
+      <p><b>Core Areas:</b> Simulation & Modeling · Statistical Learning · Robotics · Algorithmic Problem Solving</p>
+    </section>
+  </main>
+
+  <footer>
+    <small>© 2025 Ryann Mack — Built with GitHub Pages · Last updated <span id="updated"></span></small>
+  </footer>
+
+  <script>
+    document.getElementById('updated').textContent = new Date().toLocaleDateString();
+  </script>
+</body>
+</html>
